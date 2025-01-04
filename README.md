@@ -19,6 +19,10 @@ console.log(minimaldata(script))
 
 script = new Buffer('0101', 'hex')
 console.log(minimaldata(script))
+// => false
+
+script = new Buffer('51', 'hex')
+console.log(minimaldata(script))
 // => true
 ```
 
